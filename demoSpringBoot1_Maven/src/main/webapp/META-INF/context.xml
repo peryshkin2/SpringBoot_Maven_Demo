@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context>
+	<ResourceLink auth="Container" name="jdbc/j4s" global="jdbc/j4s" type="javax.sql.DataSource" />
+</context>
