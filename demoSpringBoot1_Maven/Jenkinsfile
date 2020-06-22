@@ -1,0 +1,22 @@
+pipeline {
+    agent { docker { image 'maven:4.0.0' } }
+    stages {
+        stage('build') {
+            steps {
+				echo 'Building ..'
+                sh 'mvn --version'
+				sh 'mvn spring-boot:run'
+            }
+        }
+		stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
+}
