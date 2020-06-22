@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
-
+// standard spring boot set up.
 @SpringBootApplication
 public class DemoSpringBoot1MavenApplication extends SpringBootServletInitializer {
 
