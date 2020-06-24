@@ -16,7 +16,7 @@ pipeline {
         }
 		stage('Test') {
             steps {
-                sh 'mvn test'
+                sh 'mvn -f demoSpringBoot1_Maven test'
             }
             post {
                 always {
